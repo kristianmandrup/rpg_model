@@ -1,3 +1,2 @@
-require 'add_game/named_thing'
-require 'add_game/place'
+require 'add_game/base/all'
 Folder.require_all_recursive_here __FILE__

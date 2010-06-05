@@ -1,7 +1,7 @@
 module RPG
-  class Region < Place
+  class Region < Place    
 
-    def self.type_hierarchy
+    def self.hierarchy
       [:world, :union, :country, :city_state, :city]
     end
     
