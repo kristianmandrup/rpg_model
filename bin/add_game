@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__) 
 require 'add_game'
-game = RPG::Game.new(STDOUT) 
+game = RPG::Game.new 'my game'
 game.start

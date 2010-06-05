@@ -6,5 +6,5 @@ Feature: Game Master starts game
   Scenario: start game 
     Given I am not yet playing 
     When I start a new game 
-    Then I should see "Welcome to Game Master Suite!" 
-    And I should see "Enter command:"
+    Then I should ...
+    And I should ...
